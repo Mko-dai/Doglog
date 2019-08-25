@@ -1,0 +1,20 @@
+.contents
+  %b
+    タイトルをクリックしてブログを見るワン！
+    - @tweets.each do |tweet|
+      .contents__blog
+        .contents__blog__inf     
+          %b
+            ご主人様@
+            = tweet.user.nickname
+            (飼い犬：
+            = tweet.user.dog
+            )
+          %a
+            = tweet.updated_at
+        .contents__blog__title
+          Title: 
+          %b
+            =link_to "/tweets/#{tweet.id}" do
+              = tweet.title
+  = paginate(@tweets)

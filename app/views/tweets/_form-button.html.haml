@@ -1,0 +1,19 @@
+.form
+  =link_to root_path, method: :get do
+    みんなの広場
+  %br
+  -if user_signed_in? 
+    =link_to destroy_user_session_path, method: :delete do
+      ログアウト
+    %br
+    =link_to "/tweets/new" do
+      投稿する
+    %br
+    =link_to "/users/current_user.id" do
+      あなたの部屋
+  -else
+    =link_to "/users/sign_in" do
+      会員の方はログインしてね！
+    %br
+      =link_to "/users/sign_up" do
+        会員になりたい方はこっちにおいで！

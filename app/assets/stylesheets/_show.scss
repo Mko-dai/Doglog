@@ -1,0 +1,49 @@
+.contents_row {
+  padding-top:150px;
+  font:bold;
+  color:blue;
+  // background-image: url("BldcNGIsT8y9ihlmzCW7rw_thumb_19.jpg");
+  background-size: cover;
+  filter:opacity(50%);
+  box-sizing: border-box;
+  width: 100vw;
+  height: 100vh;
+  padding-left:350px;
+  padding-right:350px;
+  margin:auto;
+  line-height: 20px;
+  color:red;
+  font-size: 20px;
+  line-height:40px;
+  p {
+    background-color: white;
+  }
+
+}
+
+.tweets {
+  padding-top:150px;
+  font:bold;
+  color:blue;
+  // background-image: url("BldcNGIsT8y9ihlmzCW7rw_thumb_19.jpg");
+  background-size: cover;
+  filter:opacity(70%);
+  box-sizing: border-box;
+  width: 100vw;
+  height: 100vh;
+  padding-left:350px;
+  padding-right:350px;
+  margin:auto;
+  &__blog {
+    color:red;
+    font-size: 20px;
+    background-color: white;
+    line-height:40px;
+  }
+}
+
+.content_post {
+  background-color: white;
+  font-size: 20px;
+  line-height:40px;
+}

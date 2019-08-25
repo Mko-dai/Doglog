@@ -1,0 +1,11 @@
+.index
+  = render partial: "tweets/header"
+  = render partial: "tweets/form-button"
+  .contents_row
+    %p
+      あなたの投稿一覧
+    - @tweets.each do |tweet|
+      .content_post
+        =link_to "/tweets/#{tweet.id}" do
+          = tweet.title
+    = paginate(@tweets)

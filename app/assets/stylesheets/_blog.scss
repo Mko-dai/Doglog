@@ -1,0 +1,27 @@
+.blog {
+  box-sizing: border-box;
+  // width: 100vw;
+  // height: 100vh;
+  padding-left:350px;
+  padding-right:350px;
+  z-index: 3;
+  padding-top:150px;
+  text-align: center;
+  margin: 0 auto;
+  resize: none;
+  // background-image: url("BldcNGIsT8y9ihlmzCW7rw_thumb_19.jpg");
+  // background-size: cover;
+  // filter:opacity(50%);
+  h1 {
+    z-index: 3;
+    font-size: 40px;
+    color:pink;
+    font:bold;
+  }
+  &__title {
+    resize: none;
+  }
+  &__text {
+    resize: none;
+  }
+}

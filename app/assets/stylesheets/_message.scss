@@ -1,0 +1,24 @@
+.message {
+  // background-image: url("BldcNGIsT8y9ihlmzCW7rw_thumb_19.jpg");
+  // background-size: cover;
+  // filter:opacity(50%);
+  box-sizing: border-box;
+  width: 100vw;
+  height: 100vh;
+  padding-left:350px;
+  padding-right:350px;
+  padding-top:300px;
+  text-align: center;
+  margin: 0 auto;
+  font-size:30px;
+  &__pop {
+    b {
+      font-size:30px;
+    }
+    a {
+      // font-size: 70px;
+      // line-height: 70px;
+    }
+
+  }
+}

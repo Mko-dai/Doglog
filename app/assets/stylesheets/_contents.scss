@@ -1,0 +1,41 @@
+.contents{
+  
+  font:bold;
+  color:red;
+  // background-image: url("BldcNGIsT8y9ihlmzCW7rw_thumb_19.jpg");
+  // background-size: cover;
+  // filter:opacity(50%);
+  // position:fixed;
+  %b {
+    text-align: center;
+  }
+  box-sizing: border-box;
+  padding-top:150px;
+  width: 100vw;
+  height: 100vh;
+  padding-left:350px;
+  padding-right:350px;
+  margin:auto;
+  &__blog {
+    background-color: paleturquoise;
+    filter:opacity(70%);
+    border:double;
+    margin:20px;
+    padding-right: 20px;
+    &__inf {
+      
+      b {
+        font-size: 20px;
+        line-height: 20px;
+      }
+      a {
+        font-size: 12px;
+        line-height:12px;
+      }   
+    }
+    &__title {
+      font-size: 20px;
+      line-height: 20px;
+    }
+  }
+}
